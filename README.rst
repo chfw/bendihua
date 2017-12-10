@@ -1,5 +1,5 @@
 ================================================================================
-fanyi
+fanyi - 翻译 - अनुवाद  - käännös - Übersetzen - Traduire - перевод - Traduzir - Translate
 ================================================================================
 
 .. image:: https://travis-ci.org/chfw/fanyi.svg?branch=master

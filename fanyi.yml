@@ -10,6 +10,7 @@ copyright_year: 2017
 command_line_interface: "fy"
 entry_point: "fanyi.main:main"
 license: MIT
+full_name: 翻译 - अनुवाद  - käännös - Übersetzen - Traduire - перевод - Traduzir - Translate
 dependencies:
   - googletrans
 description: "translate your i18n file into 108 languages"
