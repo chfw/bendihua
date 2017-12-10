@@ -7,7 +7,7 @@ from mock import patch, MagicMock
 from nose.tools import eq_
 
 
-@patch('fanyi.main.FANYI')
+@patch('fy.main.FANYI')
 def test_translate(fake_translator):
     output_file = 'output-en.json'
     fake_translated_text = '沁园春 雪'
@@ -22,7 +22,7 @@ def test_translate(fake_translator):
             'to': fake_translated_text
         }
     }
-    from fanyi.main import translate
+    from fy.main import translate
 
     options = {
         'dest_language': 'en',

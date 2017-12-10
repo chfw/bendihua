@@ -1,4 +1,4 @@
-name: "fanyi"
+name: "fy"
 organisation: "chfw"
 author: "C.W."
 contact: "wangc_2011@hotmail.com"
@@ -13,4 +13,4 @@ license: MIT
 full_name: 翻译 - अनुवाद  - käännös - Übersetzen - Traduire - перевод - Traduzir - Translate
 dependencies:
   - googletrans
-description: "translate your i18n file into 106 languages"
+description: "googletrans command line interface to translate your i18n file into 106 languages"

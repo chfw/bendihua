@@ -1,12 +1,12 @@
 ================================================================================
-fanyi - 翻译 - अनुवाद  - käännös - Übersetzen - Traduire - перевод - Traduzir - Translate
+fy - 翻译 - अनुवाद  - käännös - Übersetzen - Traduire - перевод - Traduzir - Translate
 ================================================================================
 
-.. image:: https://travis-ci.org/chfw/fanyi.svg?branch=master
-   :target: http://travis-ci.org/chfw/fanyi
+.. image:: https://travis-ci.org/chfw/fy.svg?branch=master
+   :target: http://travis-ci.org/chfw/fy
 
-.. image:: https://codecov.io/gh/chfw/fanyi/branch/master/graph/badge.svg
-   :target: https://codecov.io/gh/chfw/fanyi
+.. image:: https://codecov.io/gh/chfw/fy/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/chfw/fy
 
 
 Usage
@@ -169,19 +169,19 @@ Installation
 ================================================================================
 
 
-You can install fanyi via pip:
+You can install fy via pip:
 
 .. code-block:: bash
 
-    $ pip install fanyi
+    $ pip install fy
 
 
 or clone it and install it:
 
 .. code-block:: bash
 
-    $ git clone https://github.com/chfw/fanyi.git
-    $ cd fanyi
+    $ git clone https://github.com/chfw/fy.git
+    $ cd fy
     $ python setup.py install
 
 License

@@ -4,7 +4,7 @@ from mock import patch
 
 class TestMain:
     def setUp(self):
-        self.patcher = patch('fanyi.main.translate')
+        self.patcher = patch('fy.main.translate')
         self.fake_translate = self.patcher.start()
 
     def tearDown(self):
@@ -19,7 +19,7 @@ class TestMain:
             'locale': test_input
         }
         with patch.object(sys, 'argv', args):
-            from fanyi.main import main
+            from fy.main import main
             main()
             self.fake_translate.assert_called_with(expected)
 
@@ -33,7 +33,7 @@ class TestMain:
             'locale': test_input
         }
         with patch.object(sys, 'argv', args):
-            from fanyi.main import main
+            from fy.main import main
             main()
             self.fake_translate.assert_called_with(expected)
 
@@ -48,6 +48,6 @@ class TestMain:
             'locale': test_input
         }
         with patch.object(sys, 'argv', args):
-            from fanyi.main import main
+            from fy.main import main
             main()
             self.fake_translate.assert_called_with(expected)
