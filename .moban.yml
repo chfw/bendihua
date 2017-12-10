@@ -2,7 +2,7 @@ configuration:
   template_dir:
   - "mobans/templates"
   - ".moban.d"
-  configuration: fanyi.yml
+  configuration: fy.yml
 targets:
   - README.rst: CUSTOM_README.rst.jj2
   - setup.py: custom_setup.py.jj2
@@ -10,7 +10,7 @@ targets:
   - "tests/requirements.txt": "tests/custom_requirements.txt.jj2"
   - "docs/source/conf.py": "docs/source/conf.py.jj2"
   - test.sh: test.script.jj2
-  - "fanyi/_version.py": "_version.py.jj2"
-  - "fanyi/__init__.py": "__init__.py.jj2"
+  - "fy/_version.py": "_version.py.jj2"
+  - "fy/__init__.py": "__init__.py.jj2"
   - .gitignore: gitignore.jj2
   - .travis.yml: travis.yml.jj2
