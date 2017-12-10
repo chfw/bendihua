@@ -18,12 +18,12 @@ ENTRY_POINTS = {
     ]
 }
 DESCRIPTION = (
-    'translate your i18n file into 108 languages' +
+    'translate your i18n file into 106 languages' +
     ''
 )
 URL = 'https://github.com/chfw/fanyi'
 DOWNLOAD_URL = '%s/archive/0.0.0.tar.gz' % URL
-FILES = ['README.rst',  'CHANGELOG.rst']
+FILES = ['README.rst', 'LICENSE', 'CHANGELOG.rst']
 KEYWORDS = [
     'python'
 ]

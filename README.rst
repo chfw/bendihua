@@ -175,3 +175,8 @@ Installation
     $ cd fanyi
     $ python setup.py install
 
+License
+================================================================================
+
+MIT
+

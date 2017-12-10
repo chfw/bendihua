@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 DESCRIPTION = (
-    'translate your i18n file into 108 languages' +
+    'translate your i18n file into 106 languages' +
     ''
 )
 extensions = [
