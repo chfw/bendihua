@@ -1,5 +1,5 @@
 ================================================================================
-fanyi - 翻译 - {{ description }}
+fanyi
 ================================================================================
 
 .. image:: https://api.travis-ci.org/chfw/fanyi.svg?branch=master
@@ -7,9 +7,6 @@ fanyi - 翻译 - {{ description }}
 
 .. image:: https://codecov.io/gh/chfw/fanyi/branch/master/graph/badge.svg
    :target: https://codecov.io/gh/chfw/fanyi
-
-.. image:: https://readthedocs.org/projects/fanyi/badge/?version=latest
-   :target: http://fanyi.readthedocs.org/en/latest/
 
 
 Usage
@@ -35,11 +32,11 @@ Command line options
 
 ::
     usage: fy [-h] [-d DEST_LANGUAGE] [-o OUTPUT] locale.json
-    
+
     positional arguments:
       locale.json           locale dictionary where keys are engineering tokens
                             and values are actual user interface words
-    
+
     optional arguments:
       -h, --help            show this help message and exit
       -d DEST_LANGUAGE, --dest-language DEST_LANGUAGE
@@ -49,10 +46,8 @@ Command line options
                             name is defaulted to output-{dest-language}.json
 
 
-Reference
+Supported languages
 --------------------------------------------------------------------------------
-
-Here is list of supported languages:
 
 =====================  ============
 language               short code
@@ -163,8 +158,10 @@ yoruba                 yo
 zulu                   zu
 =====================  ============
 
+
 Installation
 ================================================================================
+
 
 .. code-block:: bash
 

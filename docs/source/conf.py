@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 DESCRIPTION = (
-    'translate a locale dictionary from one language to another' +
+    'translate your i18n file into 108 languages' +
     ''
 )
 extensions = [

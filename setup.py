@@ -18,7 +18,7 @@ ENTRY_POINTS = {
     ]
 }
 DESCRIPTION = (
-    'translate a locale dictionary from one language to another' +
+    'translate your i18n file into 108 languages' +
     ''
 )
 URL = 'https://github.com/chfw/fanyi'
