@@ -1,3 +1,6 @@
 {
-    "from": "language"
+    "from": "language",
+    "nested": {
+        "to": "another"
+    }
 }

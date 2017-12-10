@@ -17,7 +17,10 @@ def test_translate(fake_translator):
         )
     )
     expected = {
-        'from': fake_translated_text
+        'from': fake_translated_text,
+        'nested': {
+            'to': fake_translated_text
+        }
     }
     from fanyi.main import translate
 
