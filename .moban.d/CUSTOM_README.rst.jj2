@@ -13,13 +13,13 @@ Given your locale as en.json::
       "ui-button": "hello world"
    }
 
-You run: `fy en.json -d zh-cn` and will get `output-zh-cn.json` as::
+You run: `bdh en.json -d zh-cn` and will get `output-zh-cn.json` as::
 
    {
       "ui-button": "你好，世界“
    }
 
-What you run `fy en.json -d hi`? You will get it in `Hindi`::
+What you run `bdh en.json -d hi`? You will get it in `Hindi`::
 
   {
       "ui-button": "नमस्ते दुनिया"
@@ -32,7 +32,7 @@ Command line options
 --------------------------------------------------------------------------------
 
 ::
-    usage: fy [-h] [-d DEST_LANGUAGE] [-o OUTPUT] locale.json
+    usage: bdh [-h] [-d DEST_LANGUAGE] [-o OUTPUT] locale.json
 
     positional arguments:
       locale.json           locale dictionary where keys are engineering tokens

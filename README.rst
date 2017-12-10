@@ -1,12 +1,12 @@
 ================================================================================
-fy - 翻译 - अनुवाद  - käännös - Übersetzen - Traduire - перевод - Traduzir - Translate
+bendihua - 本地化 - स्थानीयकरण - локализация - Lokalisierung - Localização - localize
 ================================================================================
 
-.. image:: https://travis-ci.org/chfw/fy.svg?branch=master
-   :target: http://travis-ci.org/chfw/fy
+.. image:: https://travis-ci.org/chfw/bendihua.svg?branch=master
+   :target: http://travis-ci.org/chfw/bendihua
 
-.. image:: https://codecov.io/gh/chfw/fy/branch/master/graph/badge.svg
-   :target: https://codecov.io/gh/chfw/fy
+.. image:: https://codecov.io/gh/chfw/bendihua/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/chfw/bendihua
 
 
 Usage
@@ -18,13 +18,13 @@ Given your locale as en.json::
       "ui-button": "hello world"
    }
 
-You run: `fy en.json -d zh-cn` and will get `output-zh-cn.json` as::
+You run: `bdh en.json -d zh-cn` and will get `output-zh-cn.json` as::
 
    {
       "ui-button": "你好，世界“
    }
 
-What you run `fy en.json -d hi`? You will get it in `Hindi`::
+What you run `bdh en.json -d hi`? You will get it in `Hindi`::
 
   {
       "ui-button": "नमस्ते दुनिया"
@@ -37,7 +37,7 @@ Command line options
 --------------------------------------------------------------------------------
 
 ::
-    usage: fy [-h] [-d DEST_LANGUAGE] [-o OUTPUT] locale.json
+    usage: bdh [-h] [-d DEST_LANGUAGE] [-o OUTPUT] locale.json
 
     positional arguments:
       locale.json           locale dictionary where keys are engineering tokens
@@ -169,19 +169,19 @@ Installation
 ================================================================================
 
 
-You can install fy via pip:
+You can install bendihua via pip:
 
 .. code-block:: bash
 
-    $ pip install fy
+    $ pip install bendihua
 
 
 or clone it and install it:
 
 .. code-block:: bash
 
-    $ git clone https://github.com/chfw/fy.git
-    $ cd fy
+    $ git clone https://github.com/chfw/bendihua.git
+    $ cd bendihua
     $ python setup.py install
 
 License

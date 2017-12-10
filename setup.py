@@ -7,14 +7,14 @@ from setuptools import setup, find_packages, Command
 PY2 = sys.version_info[0] == 2
 PY26 = PY2 and sys.version_info[1] < 7
 
-NAME = 'fy'
+NAME = 'bendihua'
 AUTHOR = 'C.W.'
 VERSION = '0.0.1'
 EMAIL = 'wangc_2011@hotmail.com'
 LICENSE = 'MIT'
 ENTRY_POINTS = {
     'console_scripts': [
-        'fy = fanyi.main:main'
+        'bdh = fanyi.main:main'
     ]
 }
 DESCRIPTION = (
@@ -22,7 +22,7 @@ DESCRIPTION = (
     '6 languages' +
     ''
 )
-URL = 'https://github.com/chfw/fy'
+URL = 'https://github.com/chfw/bendihua'
 DOWNLOAD_URL = '%s/archive/0.0.1.tar.gz' % URL
 FILES = ['README.rst', 'LICENSE', 'CHANGELOG.rst']
 KEYWORDS = [
@@ -54,7 +54,7 @@ EXTRAS_REQUIRE = {
 # You do not need to read beyond this line
 PUBLISH_COMMAND = '{0} setup.py sdist bdist_wheel upload -r pypi'.format(
     sys.executable)
-GS_COMMAND = ('gs fy v0.0.1 ' +
+GS_COMMAND = ('gs bendihua v0.0.1 ' +
               "Find 0.0.1 in changelog for more details")
 NO_GS_MESSAGE = ('Automatic github release is disabled. ' +
                  'Please install gease to enable it.')

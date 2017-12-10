@@ -15,7 +15,7 @@ templates_path = ['_templates']
 source_suffix = '.rst'
 master_doc = 'index'
 
-project = u'fy'
+project = u'bendihua'
 copyright = u'2017 Onni Software Ltd.'
 version = '0.0.1'
 release = '0.0.1'
@@ -23,22 +23,22 @@ exclude_patterns = []
 pygments_style = 'sphinx'
 html_theme = 'default'
 html_static_path = ['_static']
-htmlhelp_basename = 'fydoc'
+htmlhelp_basename = 'bendihuadoc'
 latex_elements = {}
 latex_documents = [
-    ('index', 'fy.tex',
-     'fy Documentation',
+    ('index', 'bendihua.tex',
+     'bendihua Documentation',
      'Onni Software Ltd.', 'manual'),
 ]
 man_pages = [
-    ('index', 'fy',
-     'fy Documentation',
+    ('index', 'bendihua',
+     'bendihua Documentation',
      [u'Onni Software Ltd.'], 1)
 ]
 texinfo_documents = [
-    ('index', 'fy',
-     'fy Documentation',
-     'Onni Software Ltd.', 'fy',
+    ('index', 'bendihua',
+     'bendihua Documentation',
+     'Onni Software Ltd.', 'bendihua',
      DESCRIPTION,
      'Miscellaneous'),
 ]

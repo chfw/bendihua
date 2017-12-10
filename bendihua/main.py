@@ -46,7 +46,7 @@ def translate_dict(dictionary, dest_language):
 
 def create_parser():
     parser = argparse.ArgumentParser(
-        prog='fy',
+        prog='bdh',
         description='')
     parser.add_argument(
         '-d', '--dest-language',
