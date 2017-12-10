@@ -1,0 +1,6 @@
+nose
+mock
+codecov
+coverage
+flake8
+future

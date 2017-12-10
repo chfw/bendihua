@@ -1,0 +1,15 @@
+name: "fanyi"
+organisation: "chfw"
+author: "C.W."
+contact: "wangc_2011@hotmail.com"
+company: "Onni Software Ltd."
+version: "0.0.1"
+current_version: "0.0.1"
+release: "0.0.0"
+copyright_year: 2017
+command_line_interface: "fy"
+entry_point: "fanyi.main:main"
+license: MIT
+dependencies:
+  - googletrans
+description: "translate your i18n file into 108 languages"
