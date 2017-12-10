@@ -169,6 +169,15 @@ Installation
 ================================================================================
 
 
+You can install fanyi via pip:
+
+.. code-block:: bash
+
+    $ pip install fanyi
+
+
+or clone it and install it:
+
 .. code-block:: bash
 
     $ git clone https://github.com/chfw/fanyi.git
