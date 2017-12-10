@@ -2,7 +2,7 @@
 fanyi
 ================================================================================
 
-.. image:: https://api.travis-ci.org/chfw/fanyi.svg?branch=master
+.. image:: https://travis-ci.org/chfw/fanyi.svg?branch=master
    :target: http://travis-ci.org/chfw/fanyi
 
 .. image:: https://codecov.io/gh/chfw/fanyi/branch/master/graph/badge.svg
@@ -15,14 +15,20 @@ Usage
 Given your locale as en.json::
 
    {
-      "create-button": "hello world"
+      "ui-button": "hello world"
    }
 
 You run: `fy en.json -d zh-cn` and will get `output-zh-cn.json` as::
 
    {
-      "create-button": "你好世界“
+      "ui-button": "你好，世界“
    }
+
+What you run `fy en.json -d hi`? You will get it in `Hindi`::
+
+  {
+      "ui-button": "नमस्ते दुनिया"
+  }
 
 And it automatically supports `aurelia-i18n <https://github.com/aurelia/i18n>`_
 locale format.
