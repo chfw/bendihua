@@ -9,6 +9,15 @@ bendihua - 本地化 - स्थानीयकरण - локализация -
    :target: https://codecov.io/gh/chfw/bendihua
 
 
+
+One of my colleague had claimed that it is not possible to get the UI in his
+language. "Try yoruba!", said he. "OK... (66seconds), Done! Can you come
+and have a look?", I said. "Oh my god! 'Ede' for language,...", he was
+impressed.
+
+Go and localize your tranlsation.json file. Impress your colleages as you
+have done a great job, i18n in a few minutes!
+
 Usage
 ================================================================================
 
